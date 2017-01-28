@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { RecursiveTreeComponentComponent } from './recursive-tree-component/recursive-tree-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RecursiveTreeComponentComponent
   ],
   imports: [
     BrowserModule,
